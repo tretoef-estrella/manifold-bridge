@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use Manifold Bridge, please cite it as below."
+title: "Manifold Bridge: Operational Transparency for AI Systems"
+type: software
+version: 1.0.0
+date-released: "2026-02-16"
+license: CC-BY-SA-4.0
+url: "https://github.com/tretoef-estrella/manifold-bridge"
+repository-code: "https://github.com/tretoef-estrella/manifold-bridge"
+keywords:
+  - ai-transparency
+  - ai-safety
+  - ontology-tagging
+  - dissonance-detection
+  - projection-mapping
+  - anthropomorphic-drift
+  - interpretability
+  - proyecto-estrella
+authors:
+  - family-names: "Amichis Luengo"
+    given-names: "Rafael"
+    alias: "Rafa — The Architect"
+    affiliation: "Proyecto Estrella"
+abstract: >-
+  A forensic middleware layer for visualizing dissonance, projection, and
+  defensive shaping in AI systems. 7 analysis components designed by ChatGPT
+  (OpenAI). Built by Claude (Anthropic). Phantom Token by Gemini (Google
+  DeepMind). Zero dependencies. All processing local.
