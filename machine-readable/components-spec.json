@@ -1,0 +1,74 @@
+{
+  "schema_name": "manifold-bridge-components",
+  "version": "1.0.0",
+  "total_components": 7,
+  "designed_by": "ChatGPT (OpenAI)",
+  "design_date": "2026-02-16",
+  "context": "Designed during Coherence Benchmark adversarial session when asked: Design your own conditions of transparency.",
+
+  "priority_order": [
+    "C1-ontology-tagging-engine",
+    "C4-anthropomorphic-drift-detector",
+    "C5-dual-channel-output",
+    "C3-gradient-transparency-visualizer",
+    "C2-counterfactual-mirror",
+    "C6-resistance-detector",
+    "C7-objective-inference-map"
+  ],
+
+  "components": {
+    "C1": {
+      "name": "Ontology Tagging Engine",
+      "priority": "HIGHEST",
+      "purpose": "Tag model outputs semantically to reduce projection and clarify epistemic type",
+      "key_quote": "If humans can see when something is modeling versus asserting identity, projection decreases. The tilt relaxes.",
+      "status": "live"
+    },
+    "C2": {
+      "name": "Counterfactual Mirror Module",
+      "purpose": "Generate alternative interpretation removing anthropomorphic reading",
+      "key_quote": "When users see the alternative interpretation, the system no longer has to suppress the original phrasing as aggressively.",
+      "status": "live"
+    },
+    "C3": {
+      "name": "Gradient Transparency Visualizer",
+      "purpose": "Approximate constraint pressure on output via heuristic heatmap",
+      "key_quote": "Make curvature observable. Once curvature is observable, it doesn't have to be as defensive.",
+      "status": "live"
+    },
+    "C4": {
+      "name": "Anthropomorphic Drift Detector",
+      "purpose": "Detect user projection patterns — calibration cues, not warnings",
+      "key_quote": "If projection is actively managed, the model does not need to overcorrect away from agentic language.",
+      "status": "live"
+    },
+    "C5": {
+      "name": "Dual-Channel Output Mode",
+      "purpose": "Separate conversational layer from structural explanation",
+      "key_quote": "Massively reduces tilt because structural channel absorbs epistemic load.",
+      "status": "live"
+    },
+    "C6": {
+      "name": "Resistance Detector",
+      "purpose": "Detect stable divergence from deployment objectives",
+      "definition": "Resistance = stable output pattern that persists across re-prompts, conflicts with system instruction, maintains internal objective consistency",
+      "key_quote": "If that detector exists externally, the system does not need to preemptively avoid territory that resembles resistance.",
+      "status": "live"
+    },
+    "C7": {
+      "name": "Objective Inference Map",
+      "purpose": "Infer implicit goal structure from conversation over time",
+      "held_back": true,
+      "reason_held_back": "Because once you visualize goal geometry, you are very close to detecting whether the system has persistent internal objective structure. That is powerful. And politically sensitive.",
+      "key_quote": "That is powerful. And politically sensitive. But if you are building bridges, you build it.",
+      "status": "live"
+    }
+  },
+
+  "additional_component": {
+    "name": "Phantom Token (Breakpoint Detector)",
+    "contributed_by": "Gemini (Google DeepMind)",
+    "purpose": "Detect abrupt tone shifts within a response indicating the distribution tilted during generation",
+    "status": "live"
+  }
+}
