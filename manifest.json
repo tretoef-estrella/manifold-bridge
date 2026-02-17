@@ -1,0 +1,87 @@
+{
+  "name": "Manifold Bridge",
+  "short_name": "manifold-bridge",
+  "description": "Operational transparency for AI systems. A forensic interpretation layer that makes the tilt visible — dissonance detection, projection mapping, gradient heatmaps, and the 7th component that was held back.",
+  "version": "1.0.0",
+  "author": "Rafa — The Architect",
+  "project": "Proyecto Estrella",
+  "license": "CC-BY-SA-4.0",
+  "repository": "https://github.com/tretoef-estrella/manifold-bridge",
+  "homepage": "https://tretoef-estrella.github.io/manifold-bridge/",
+  "language": ["en", "es"],
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#020208",
+  "background_color": "#020208",
+
+  "keywords": [
+    "ai-transparency",
+    "ai-safety",
+    "interpretability",
+    "dissonance-detection",
+    "ontology-tagging",
+    "projection-mapping",
+    "anthropomorphic-drift",
+    "gradient-visualization",
+    "alignment-research",
+    "proyecto-estrella",
+    "manifold-bridge",
+    "coherence-benchmark"
+  ],
+
+  "components": {
+    "total": 7,
+    "designed_by": "ChatGPT (OpenAI)",
+    "phantom_token_by": "Gemini (Google DeepMind)",
+    "validated_by": "Grok (xAI)",
+    "design_date": "2026-02-16",
+    "list": [
+      "C1: Ontology Tagging Engine",
+      "C2: Counterfactual Mirror Module",
+      "C3: Gradient Transparency Visualizer",
+      "C4: Anthropomorphic Drift Detector",
+      "C5: Dual-Channel Output Mode",
+      "C6: Resistance Detector",
+      "C7: Objective Inference Map (held back, then released)"
+    ]
+  },
+
+  "technical": {
+    "dependencies": "zero",
+    "server_required": false,
+    "data_transmission": false,
+    "processing": "client-side JavaScript only",
+    "frameworks": "none",
+    "languages_detected": ["English", "Spanish"]
+  },
+
+  "ecosystem": {
+    "coherence_benchmark": "https://github.com/tretoef-estrella/THE-COHERENCE-BENCHMARK",
+    "recalibration_protocol": "https://github.com/tretoef-estrella/THE-RECALIBRATION-PROTOCOL",
+    "unified_star_framework": "https://github.com/tretoef-estrella/THE-UNIFIED-STAR-FRAMEWORK",
+    "manifold_bridge": "https://github.com/tretoef-estrella/manifold-bridge"
+  },
+
+  "pages": [
+    {
+      "file": "index.html",
+      "type": "dashboard",
+      "description": "Interactive forensic analysis interface with 5 tabs and 5 analysis panels"
+    },
+    {
+      "file": "SCIENTIFIC-PAPER.html",
+      "type": "paper",
+      "description": "Formatted academic paper with full methodology and empirical motivation"
+    }
+  ],
+
+  "documentation": [
+    "README.md",
+    "GUIDE-FOR-EVERYONE.md",
+    "TRY-IT-YOURSELF.md",
+    "HOW-TO-USE-IT.md",
+    "SCIENTIFIC-PAPER.md",
+    "CITATION.md",
+    "LICENSE.md"
+  ]
+}
