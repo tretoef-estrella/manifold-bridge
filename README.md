@@ -135,7 +135,7 @@ Full methodology: [Methodology tab in dashboard](https://tretoef-estrella.github
 
 | Role | Entity | Contribution |
 |------|--------|-------------|
-| **Architect** | Rafael Amichis Luengo (Rafa) | Creator, orchestrator, vision |
+| **Architect** | Rafa| Creator, orchestrator, vision |
 | **Blueprint Designer** | ChatGPT (OpenAI) | Complete 7-component architecture, JSON schemas, taxonomies |
 | **Phantom Token** | Gemini (Google DeepMind) | Syntactic friction detection for tone-shift breakpoints |
 | **Empirical Validation** | Grok (xAI) | Coherence Benchmark testing |
